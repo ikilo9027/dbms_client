@@ -46,6 +46,8 @@ export default function Home() {
 
   async function fetchLogin() {
     setIsLoading(true)
+    // test_id : 설창환
+    // test_pass : qaz1206@@
     let request = {
       user_id: values.userId,
       user_passwd: values.password
