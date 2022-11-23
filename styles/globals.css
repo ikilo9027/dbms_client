@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+ul{
+  list-style:none;
+}
+
+.login_logo{
+  width:300px; 
+  height:200px;
+  background:url('../public/espreso_icon_none_background.png') center center no-repeat;
+  background-size :140px 110px ;
+}
