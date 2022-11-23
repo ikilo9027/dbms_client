@@ -190,10 +190,10 @@ export default function MainBoard() {
         {/* <Upload /> */}
         <Category path={path} setPath={changePath} list={list} getList={getSubFolerList} setIsLoading={handleClickLoading} />
       </div>
-      <div style={{ marginTop: '40px', textAlign: 'center', display: isAdmin ? 'block' : 'none' }} >
+      {/* <div style={{ marginTop: '40px', textAlign: 'center', display: isAdmin ? 'block' : 'none' }} >
         <Button variant="contained" sx={{ width: '100px' }} onClick={onClickSelect} >Select</Button>
         <Button variant="contained" sx={{ width: '100px' }} onClick={onClickSave} >Save</Button>
-      </div>
+      </div> */}
 
       <div>
         <StyledEngineProvider>
